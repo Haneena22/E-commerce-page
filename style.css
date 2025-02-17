@@ -447,7 +447,7 @@ div .avatar img {
     gap: 20px;
     padding: 0;
   }
-  .product-photos {
+  .default {
     display: none;
   }
   .lightbox {
@@ -457,21 +457,20 @@ div .avatar img {
     width: auto;
     background: none;
   }
-  .product-photos .list-imgs {
+  .lightbox .list-imgs {
     display: none;
   }
-  .product-photos .item-prev {
+  .lightbox .icon-prev {
     left: 50px;
     height: 45px;
     width: 45px;
   }
-  .product-photos .item-next {
+  .lightbox .icon-next {
     right: 50px;
     height: 45px;
     width: 45px;
   }
   .product-photos .main-img img.active {
-    max-width: none;
     max-height: none;
     width: 100vw;
     height: auto;
@@ -501,5 +500,10 @@ div .avatar img {
   }
   .counter button {
     width: 40%;
+  }
+  .cart-container {
+    z-index: 20;
+    right: -85px;
+    top: 40px;
   }
 }
